@@ -1,15 +1,16 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from 'react'
+import { Link } from 'gatsby'
 
-const AboutPage = () => {
+const IndexPage = () => {
   return (
-      <main>
-          <h1>Hello World! About Me</h1>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <p>Hi there! I am the proud creator of this website, and I am following Gatsby's tutorial.</p>
-      </main>
-
-
+    <main>
+      <h1>Welcome to my Gatsby site!</h1>
+      <Link to="/about">About</Link>
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </main>
   )
-} 
+}
+
+export const Head = () => <title>Home Page</title>
+
+export default IndexPage
