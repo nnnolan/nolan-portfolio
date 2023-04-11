@@ -5,7 +5,8 @@
   }
 
   .heading {
-    color: rebeccapurple;
+    color: #16abcb
+    ;
   }
   .nav-links {
     display: flex;
@@ -20,5 +21,13 @@
     
   }
 .nav-link-text:hover {
-    color: rebeccapurple;
+    color: #16abcb
+    ;
+}
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
 }
