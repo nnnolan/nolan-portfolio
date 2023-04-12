@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `my first gatsby webpage, meow`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `nolan pestano 👨‍💻🐉`,
+    siteUrl: `https://www.yourdoman.tld`,
   },
   plugins: [
     `gatsby-plugin-image`,
