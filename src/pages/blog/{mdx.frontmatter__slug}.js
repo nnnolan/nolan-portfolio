@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
 
@@ -13,15 +14,22 @@ const BlogPost = ({ data, children }) => {
 }
 
 export const query = graphql`
-  query ($id: String) {
+  query($id: String) {
     mdx(id: {eq: $id}) {
       frontmatter {
         title
-        date(formatString: "MMMM D, YYYY")
+        date(formatString: "MMMM DD, YYYY")
+        hero_image_alt
+        hero_image {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
   }
 `
-export const Head = ( {data} ) => <Seo title={data.mdx.frontmatter.title}/>
+
+export const Head = ({ data }) => <Seo title={data.mdx.frontmatter.title} />
 
 export default BlogPost

@@ -21,7 +21,7 @@
     
   }
 .nav-link-text:hover {
-    color: #16abcb
+    color: #696969
     ;
 }
 
@@ -32,3 +32,15 @@
   margin: 3rem 0;
 }
 a:visited { text-decoration: none; color: #16abcb }
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #16abcb;
+}
+
+a:hover {
+  color: #696969;
+}
