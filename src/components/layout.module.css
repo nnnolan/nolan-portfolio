@@ -44,3 +44,32 @@ a:link, a:visited {
 a:hover {
   color: #696969;
 }
+
+
+footer {
+  background-color: #16abcb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+} 
+
+/* github logo style
+*/
+.github-logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

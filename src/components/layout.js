@@ -8,6 +8,7 @@ import {
   navLinkText,
   siteTitle,
 } from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -23,6 +24,7 @@ const Layout = ({ pageTitle, children }) => {
 
   return (
     <div className={container}>
+      <body>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <nav>
         <ul className={navLinks}>
@@ -47,7 +49,24 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+
+      <footer>
+        <style></style>
+        <p>Nolan Pestano. 2023, Built with 💟, Wilco's <i>Yankee Hotel Foxtrot</i> and ☕.
+        <StaticImage
+
+          
+          // link to github
+          
+        alt= "Github Logo"
+        src= "../images/github-mark-white.svg"
+        /> 
+        </p>
+      </footer>
+      </body>
+
     </div>
+    
   )
 }
 
