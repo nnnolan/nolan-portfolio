@@ -5,7 +5,7 @@ import Seo from '../../components/seo'
 
 const BlogPage = ({ data }) => {
     return (
-      <Layout pageTitle="blog">
+      <Layout pageTitle="portfolio">
         <ul>
           {
             data.allMdx.nodes.map((node) => (

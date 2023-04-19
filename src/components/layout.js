@@ -30,17 +30,17 @@ const Layout = ({ pageTitle, children }) => {
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-              Home
+              home
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
-              About
+              awards & Achievements
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/blog" className={navLinkText}>
-              Blog
+              portfolio
             </Link>
           </li>
         </ul>
@@ -52,7 +52,7 @@ const Layout = ({ pageTitle, children }) => {
 
       <footer>
         <style></style>
-        <p>Nolan Pestano. 2023, Built with 💟, Wilco's <i>Yankee Hotel Foxtrot</i> and ☕.
+        <p>Nolan Pestano, 2023. Built with 💟, Wilco's <i>Yankee Hotel Foxtrot</i> and ☕.
         <StaticImage
 
           

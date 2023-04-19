@@ -14,10 +14,14 @@ const IndexPage = () => {
         src= "../images/cole.jpg"
         />
 
+    <p></p>
+    <p>
+      <a href="src/images/Nolan Pestano - Resume.pdf" download> Find my portfolio here 🚀</a>
+    </p>
     </Layout>
   )
 }
 
-export const Head = () => <Seo title= "Home Page"/>
+export const Head = () => <Seo title= "home"/>
 
 export default IndexPage
