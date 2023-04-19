@@ -25,6 +25,7 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <body>
+      <div class="content">
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <nav>
         <ul className={navLinks}>
@@ -35,7 +36,7 @@ const Layout = ({ pageTitle, children }) => {
           </li>
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
-              awards & Achievements
+              awards & achievements
             </Link>
           </li>
           <li className={navLinkItem}>
@@ -49,6 +50,9 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading}>{pageTitle}</h1>
         {children}
       </main>
+      </div>
+
+      <div className='flexThisBox'>
 
       <footer>
         <style></style>
@@ -62,7 +66,9 @@ const Layout = ({ pageTitle, children }) => {
         src= "../images/github-mark-white.svg"
         /> 
         </p>
+      
       </footer>
+      </div>
       </body>
 
     </div>

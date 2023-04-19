@@ -15,9 +15,11 @@ const IndexPage = () => {
         />
 
     <p></p>
-    <p>
-      <a href="src/images/Nolan Pestano - Resume.pdf" download> Find my portfolio here 🚀</a>
-    </p>
+    
+
+  
+      <p> Find my resume <a href="src/components/resume.pdf"donwload>here! 🚀</a></p>
+
     </Layout>
   )
 }

@@ -59,8 +59,12 @@ body {
   flex-direction: column;
 }
 
+html, body{
+  height: 100%;
+}
+
 main {
-  flex: 1;
+  flex: 1 0 auto;
 } 
 
 /* github logo style
@@ -72,4 +76,20 @@ main {
   display: block;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.flexThisBox {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
