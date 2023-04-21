@@ -4,8 +4,7 @@ import Seo from '../components/seo'
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="awards & achievements ">
-      <h1>awards and achievements i've garnered over the years</h1>
+    <Layout pageTitle="🏆">
 <p></p>
       <h4>2022  </h4>
       <ul>

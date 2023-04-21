@@ -5,13 +5,14 @@ import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="nolan">
+    <Layout pageTitle="🧙‍♂️🃏">
+      <h1>nolan pestano</h1>
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
-      <p> I am currently a high schooler at Smithville High, but I plan on attending Mizzou this fall. I am also currently intering with UGA Finance in KC, MO.</p>
-      <p> I enjoy Oxford Commas, Chess, Python, and Good Coffee, among other things</p>
+      <p> I am currently a high schooler at Smithville High, but I plan on attending Mizzou this fall. I am also currently interning with UGA Finance's backend process team in KC, MO.</p>
+      <p> I enjoy Oxford Commas, Chess, Python, and Good Coffee, among other things. Above all, I love life and love being a nerd.</p>
       <StaticImage
-        alt= "Thomas Cole's 'Destruction', the fourth painting in his series 'The Course of Empire.' My personal favorite."
-        src= "../images/cole.jpg"
+        alt= "Summer Night by Winslow Homer, a personal favorite"
+        src= "../images/homer.jpg"
         />
 
     <p></p>
@@ -19,6 +20,8 @@ const IndexPage = () => {
 
   
       <p> Find my resume <a href="src/components/resume.pdf"donwload>here! 🚀</a></p>
+
+
 
     </Layout>
   )

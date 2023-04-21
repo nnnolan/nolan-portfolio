@@ -8,6 +8,7 @@ import {
   navLinkText,
   siteTitle,
 } from './layout.module.css'
+import '../components/mystyles.scss'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ pageTitle, children }) => {
@@ -54,20 +55,13 @@ const Layout = ({ pageTitle, children }) => {
 
       <div className='flexThisBox'>
 
-      <footer>
-        <style></style>
-        <p>Nolan Pestano, 2023. Built with 💟, Wilco's <i>Yankee Hotel Foxtrot</i> and ☕.
-        <StaticImage
-
-          
-          // link to github
-          
-        alt= "Github Logo"
-        src= "../images/github-mark-white.svg"
-        /> 
+      <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Nolan Pestano, 2023. Built with 💟, Wilco's <i>Yankee Hotel Foxtrot</i>, Gatsby, and ☕.
         </p>
-      
-      </footer>
+      </div>
+    </footer>
       </div>
       </body>
 
