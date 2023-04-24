@@ -19,7 +19,7 @@ const IndexPage = () => {
     
 
   
-      <p> Find my resume <a href="src/components/resume.pdf"donwload>here! 🚀</a></p>
+      <p> Find my resume <a target="_blank" rel="noopener noreferrer"  a href="https://drive.google.com/file/d/12CQGuNt9KvxvCERdaNUkwMag8T52YI21/view?usp=sharing">here! 🚀</a></p>
 
 
 

@@ -1,4 +1,4 @@
-.container:not(.footer) {
+.container:not(.footer, footer) {
     margin: auto;
     max-width: 500px;
     font-family: sans-serif;
