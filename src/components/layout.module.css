@@ -23,7 +23,9 @@
 .nav-link-text:hover {
     color: #228B22;
 }
-
+nav {
+  padding-bottom: 20px;
+}
 .site-title {
   font-size: 3rem;
   color: gray;
@@ -85,4 +87,12 @@ main {
 
 .lists {
   line-height: 50%;
+}
+
+footer{
+  background-color: #16abcb;
+  color: grey;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
 }
