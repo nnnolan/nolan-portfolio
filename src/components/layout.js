@@ -9,7 +9,6 @@ import {
   siteTitle,
 } from './layout.module.css'
 import '../components/mystyles.scss'
-import { StaticImage } from 'gatsby-plugin-image'
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
