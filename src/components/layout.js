@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import {Helmet} from 'react-helmet'
 import {
   container,
   heading,
@@ -9,6 +10,11 @@ import {
   siteTitle,
 } from './layout.module.css'
 import '../components/mystyles.scss'
+
+<helmet>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <html lang='en' />
+</helmet>
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
