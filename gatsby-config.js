@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `nolan pestano 👨‍💻🐉`,
-    siteUrl: `https://www.yourdoman.tld`,
+    siteUrl: `https://nolanpestano.me`,
   },
   plugins: [
     `gatsby-plugin-image`,
