@@ -11,6 +11,9 @@ const AboutPage = () => {
       <ul>
         <li>MO FBLA State Qualification in Computer Programming and Coding, Computer Problem Solving, & Cybersecurity.
         Ultimately only participated in Programming and Coding, taking a nice 5th in the state.</li>
+
+        <li> NKCH Give Life Scholarship Award Receptient, wrote a ~500 word essay on the importance of donating life, and gave an impromptu speech infront of the board of North Kansas City Hospital.
+        </li>
       </ul>
 
 
@@ -25,7 +28,7 @@ const AboutPage = () => {
       </ul>
 
 
-    </Layout>
+    </Layout> 
   )
   }
 
