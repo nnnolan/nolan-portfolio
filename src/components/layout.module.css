@@ -96,4 +96,9 @@ main {
     /* mobile view, the header is on two lines by one emoji... we want it all on one line */
     font-size: 2.5rem;
   }
+
+  .container:not(.footer, footer)
+  {
+    max-width: 400px;
+  }
 }
