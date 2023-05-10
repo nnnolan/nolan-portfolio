@@ -8,7 +8,7 @@ const IndexPage = () => {
     <Layout pageTitle="🧙‍♂️🃏">
       <h1>nolan pestano</h1>
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
-      <p> I am currently a high schooler at Smithville High, but I plan on attending Mizzou this fall. I am also currently interning with UGA Finance's backend process team in KC, MO.</p>
+      <p> I just recently graduated from Smithville High School, but I plan on attending Mizzou this fall. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
       <p> I enjoy Oxford Commas, Chess, Python, and Good Coffee, among other things. Above all, I love life and love being a nerd.</p>
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
