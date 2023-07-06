@@ -32,6 +32,6 @@ const AboutPage = () => {
   )
   }
 
-export const Head = () => <Seo title= "about me"/>
+export const Head = () => <Seo title= "accolades"/>
 
 export default AboutPage
