@@ -9,7 +9,7 @@ const IndexPage = () => {
       <h1>nolan pestano</h1>
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
       <p> I am a current student of Computer Science @ the Univeristy of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
-      <p> I enjoy Oxford Commas, Chess, Python, and Good Coffee, among other things. Above all, I love life and love being a nerd.</p>
+      <p> I enjoy Oxford Commas, Chess, Python, and Good Coffee, among other things. Above all, I love life and I love being a nerd.</p>
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
         src= "../images/homer.jpg"
