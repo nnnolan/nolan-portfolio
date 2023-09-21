@@ -9,7 +9,7 @@ const IndexPage = () => {
       <h1>nolan pestano</h1>
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
       <p> I am a current student of Computer Science @ the Univeristy of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
-      <p> I enjoy Oxford Commas, Chess, Python, and Good Coffee, among other things. Above all, I love life and I love being a nerd.</p>
+      <p> I enjoy Oxford commas, chess, Python, and good coffee, among other things. Above all, I love life and I love being a nerd.</p>
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
         src= "../images/homer.jpg"
@@ -19,7 +19,7 @@ const IndexPage = () => {
     
 
   
-      <p> Find my resume <a target="_blank" rel="noopener noreferrer"  a href="https://drive.google.com/file/d/1QL7oxGTCc-v1dRd9CfClpH6yn-9lgsRK/view?usp=sharing">here! 🚀</a></p>
+      <p> Find my resume <a target="_blank" rel="noopener noreferrer"  a href="https://docs.google.com/document/d/10PtEqfGsanzQ4W3ipJy_b-TqcEyIIogEHByE0cmCBhc/edit?usp=sharing">here! 🚀</a></p>
 
 
 
