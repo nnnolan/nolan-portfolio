@@ -40,6 +40,6 @@ const BlogPage = ({ data }) => {
     } 
   }
 `
-export const Head = () => <Seo title="my portfolio" />
+export const Head = () => <Seo title="portfolio" />
 
 export default BlogPage
