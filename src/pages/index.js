@@ -19,10 +19,9 @@ const IndexPage = () => {
     
 
   
-      <p> Find my resume <a target="_blank" rel="noopener noreferrer"  a href="https://docs.google.com/document/d/10PtEqfGsanzQ4W3ipJy_b-TqcEyIIogEHByE0cmCBhc/edit?usp=sharing">here! 🚀</a></p>
+      <p> Find my resume <a target="_blank" rel="noopener noreferrer"  a href="https://docs.google.com/document/d/1SgYMsyagvNapXt0ukNWNDJh1z5c7UQOULy4TQfihTLg/edit?usp=sharing">here! ⚡</a></p>
 
-
-
+ 
     </Layout>
   )
 }
