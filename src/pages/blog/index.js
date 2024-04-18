@@ -2,10 +2,14 @@ import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import Seo from '../../components/seo'
+import { Helmet } from "react-helmet"
 
 const BlogPage = ({ data }) => {
     return (
       <Layout pageTitle="💼">
+      <Helmet>
+        <meta name="icon" href="src/images/favicon-32x32.png"/>
+      </Helmet>
         <p>let's talk business 😎🤝</p>
         <ul>
           {

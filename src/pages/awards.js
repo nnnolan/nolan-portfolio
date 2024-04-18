@@ -7,6 +7,13 @@ const AboutPage = () => {
     <Layout pageTitle="🏆">
 <p></p>
 
+    <h4>2024</h4>
+    <ul>
+      <li>Competed with <a  target="_blank" rel="noopener noreferrer" a href="https://www.instagram.com/mizzouspace/?hl=e">Mizzou Space Program</a>  in the Argonia Cup, a two-day rocketry competition for collegiate rocketry clubs.
+      We launched a two-stage rocket, containing 150 golf balls as a payload, as described by the competiton rules. We spent ~6 months planning, wiring, building, and working on other shenangins for the Baker Dozen. Ultimately, one of our parachutes failed and thus we didn't place. 
+      </li> 
+    </ul>
+
       <h4>2023</h4>
       <ul>
         <li>MO FBLA State Qualification in Computer Programming and Coding, Computer Problem Solving, & Cybersecurity.
