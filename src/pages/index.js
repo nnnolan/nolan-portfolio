@@ -18,6 +18,7 @@ const IndexPage = () => {
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
       <p> I am a current student of Computer Science @ the Univeristy of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
       <p> I enjoy live music, the color green, Python, standup comedy, and good coffee, among other things. Above all, I love life and I love being a nerd.</p>
+      <p> <mark>I am seeking an internship for the summer of 2025! Please reach out if you have an opportunity available! </mark></p>
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
         src= "../images/homer.jpg"
