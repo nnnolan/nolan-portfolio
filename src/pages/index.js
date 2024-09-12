@@ -16,9 +16,10 @@ const IndexPage = () => {
       </Helmet>
       <h1>nolan pestano</h1>
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
-      <p> I am a current student of Computer Science @ the Univeristy of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
+      <p> I am a current student of Computer Science @ the University of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
       <p> I enjoy live music, the color green, Python, standup comedy, and good coffee, among other things. Above all, I love life and I love being a nerd.</p>
-      <p> <mark><bold>I am seeking an internship or coop for the summer of 2025! Please reach out if you have an opportunity available! I would be stoked to show how I can bring value to the role. </bold> </mark></p>
+      <p><mark><strong>I'm actively seeking an internship or co-op for the summer of 2025! If you have an opportunity available, please reach out! I would be beyond stoked to discuss how I can contribute and add value to your team.</strong></mark></p>
+
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
         src= "../images/homer.jpg"
