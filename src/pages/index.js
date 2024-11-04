@@ -18,7 +18,7 @@ const IndexPage = () => {
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
       <p> I am a current student of Computer Science @ the University of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
       <p> I enjoy live music, the color green, Python, standup comedy, and good coffee, among other things. Above all, I love life and I love being a nerd.</p>
-      <p><mark><strong>I'm actively seeking an internship or co-op for the summer of 2025! If you have an opportunity available, please reach out! I would be beyond stoked to discuss how I can contribute and add value to your team.</strong></mark></p>
+      <p><mark><strong><s>I'm actively seeking an internship or co-op for the summer of 2025!</s></strong></mark> I'm happy to share I've accepted a role with Emerson! I'll be working on the Automation team come December. 🚀</p>
 
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
