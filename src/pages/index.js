@@ -16,9 +16,9 @@ const IndexPage = () => {
       </Helmet>
       <h1>nolan pestano</h1>
       <p>Hello World! I am Nolan Pestano, and this is my page.</p>
-      <p> I am a current student of Computer Science @ the University of Missouri - Columbia. Most recently, I was with UGA Finance's backend process team in KC, MO.</p>
-      <p> I enjoy live music, the color green, Python, standup comedy, and good coffee, among other things. Above all, I love life and I love being a nerd.</p>
-      <p><mark><strong><s>I'm actively seeking an internship or co-op for the summer of 2025!</s></strong></mark> I'm happy to share I've accepted a role with Emerson! I'll be working on the Automation team come December. 🚀</p>
+      <p> I am a current student of Computer Science @ the University of Missouri - Columbia. Most recently, I was a co-op with the Intelligent Automation team of Emerson, based in Marshalltown, IA.</p>
+      <p> I enjoy live music, the color green, Python, standup comedy, crosswords, and good coffee, among other things. Above all, I love life and I love being a nerd.</p>
+      <p><mark><strong>📢 I'm actively seeking an internship position for the summer of 2026! </strong></mark>  I’m eager to contribute, learn, and bring value to your teams. If you know of opportunities or would like to connect, I’d love to hear from you! 🚀</p>
 
       <StaticImage
         alt= "Summer Night by Winslow Homer, a personal favorite"
