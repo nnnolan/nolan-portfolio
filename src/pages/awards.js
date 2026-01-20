@@ -9,6 +9,7 @@ const AboutPage = () => {
     <h4>2025</h4>
     <ul>
       <li>Treasurer of Mizzou Space Prgoram, I am currently balancing a ~45k budget through lots of disruption. I am continuing to work on our competition rockets too! </li>
+      <li>Competed in Mizzou's 2025 Hackathon, <i>Tigerhacks</i>, submitting <a target="_blank" rel="noopener noreferrer" a href="https://lexiconstellation.us/">Lexiconstellation</a>, a web tool developed for crossword constructors to help with clueing, fills, and construction. I won best use of Generative AI! ✏️📰🤖</li>
     </ul>
 
     <h4>2024</h4>
