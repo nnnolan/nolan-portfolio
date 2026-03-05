@@ -35,6 +35,6 @@
     "sass": "^1.91.0"
   },
   "devDependencies": {
-    "cypress": "^15.5.0"
+    "cypress": "^15.11.0"
   }
 }
